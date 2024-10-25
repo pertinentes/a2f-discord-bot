@@ -1,0 +1,27 @@
+{
+  "name": "2fa-bot",
+  "version": "1.0.0",
+  "description": "Un bot Discord pour gérer la 2fa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pertinentes",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.3",
+    "jssha": "^3.3.1",
+    "quick.db": "^9.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
