@@ -26,7 +26,7 @@ Ce bot 2FA Discord offre une solution pratique pour gérer vos authentifications
 
 ## <a id="commands"></a> 🛠️ 〢 Commandes
 
-- `/setup` : Configurez une nouvelle application 2FA
+- `/setup` : Configurez une nouvelle application 2FA avec une clé ou un qrcode
 - `/get` : Récupérez un code OTP pour une application 2FA spécifique
 - `/list` : Affichez toutes vos applications 2FA
 - `/remove` : Supprimez une application 2FA
